@@ -5,7 +5,7 @@ identifier=$2
 
 if [[ -z "$fullpath" ]] || [[ -z "$identifier" ]];
 then
-	echo "Please enter the path of the file (full or relative) and the identifier to add."
+	echo "Please enter the path of the file (full or relative) and the identifier to add." >&2
 	exit 1
 fi
 
